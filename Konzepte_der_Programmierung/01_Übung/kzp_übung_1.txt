@@ -1,0 +1,75 @@
+Aufgabe 1
+	(a)
+		(1) Endlich beschrieben: Das Programm muss einen Anfang und ein Ende haben. Auch wenn die Anwendung dauerhaft läuft hat sie ein Ende.
+			Nicht erfüllt: Eine Anwendung in der eine Endlosschleife läuft (die Aussage in der Schleife ist immer True)
+		(2) Deterministisch: Der Code mus Bestimmbar sein. Jede Eingabe muss stets dasselbe Ergebnis liefern bei selber Eingabe. Das Ergebnis muss im vornherein bestimmbar sein, so das es keine zufälligen Ergbnisse gibt.
+			Nicht erfüllt: Eine Person stellt einer anderen Person zweimal die selbe frage und bekommt zwei unteschiedliche Antworten.
+		(3) Effektiv ausführbar: Die Anwendung muss ausführbar und nicht unnötig Komplex sein <1
+			Nicht erfüllt: Einen Code der in Python geschrieben wurde aber eigentlich in C++ ausgeführt werden soll. Eine Person fragt nach dem Weg, der Weg ist 100 Meter entfernt aber die Wegbeschreibung ist so umständlich das die Person eine stunde benötigt um Ihr Ziel zu erreichen.
+		
+		
+	
+	(b) 1. Du bist geboren
+		2. Folge den Empfehlungen deiner Eltern
+		3. Gehe zur Schule
+		4. Gehe Arbeiten.
+		5. Sei sparsam.
+		6. Du kaufst das Ei
+		7. Du setzt einen Topf mit Wasser auf den Herd
+		8. Du benutzt die maximale Hitze des Herds
+		9. Warte bis das Wasser Kocht
+		10. Das Ei langsam auf einem Löffel in den Topf lassen
+		11. Stelle einen Wecker auf 10 Minuten
+		12. Wenn der Wecker klingelt nimm das Ei raus.
+		13. Fertig
+		
+		Es handelt sich um einen Algorithmus da die Handlungsanweisung endlichh beschrieben ist, sie hat einen Start und ein Ende, sie ist Deterministisch, es gibt immer das selbe Ergebnis, das hartgekochte Ei und
+		sie ist effektiv Ausführbar, sie ist mit den angegebenen Mitteln ausführbar und nicht unnötig Komplex.
+		
+		
+Aufgabe 2
+	(a) 1 - n 
+		Zahl x
+		natürliche Zahl y
+		Zahlenbereich a, b
+		zwischen a und b ist c
+		
+		x = 6
+		a = 1
+		b = 10
+		y = c
+		
+		Hannelore sagt 8. Werner sagt kleiner.
+		c = 8
+		a = 1
+		b = c-1 = 7
+		Hannelore sagt 2. Werner sagt größer.
+		c = 2
+		a = c+1 = 3
+		b = 7
+		Hannelore sagt 4. Werner sagt größer.
+		c = 4
+		a = c+1 = 5
+		b = 7
+		Hannelore sagt 6. Werner sagt Treffer.
+		c = 6
+		x = y
+	
+	(b) Der Zahlenbereich wird kleiner, es kann nicht passieren das sie die Zahl verpasst weil wir ausgehen das Werner die Wahrheit sagt und wir uns in +/-1 Schrittweite bewegen, so kann keine der Zahlen übersprungen werden.
+		
+Aufgabe 3
+	(a) der Variabel a wird eine Zahl zugewiesen (18)+
+	(b) Die Help funktion zeigt Klassen und Funktionen
+	(c) Mit dem Logischen Vergleichsoperator werden die werte links und rechts Verglichen, Ergebnis False
+	(d) a wird ein neuer wert zugwiesen. Das Ergbins der aussage ist somit True.
+	(e) Print ist eine Funktion welche eine Ausgabe auf der Konsole generiert. Der Integer wird in einen String umgewandelt und mit dem Punkt konkatiniert. Danach gibt es einen Zeilenumbruch (Die Ausgabe ist KDP 2023.)
+	(f) Logische Aussage, das Ergebnis ist True da es sich um eine Disjunktion handelt muss nur ein Wert wahr sein.
+	(g) If-Abfrage. Sollte a - 4 kleiner gleich 5 sein dann gibt ja aus ansonsten nein. (36 ist größer als 5 also nein)
+	(h) Soll zeigen das Befehle auch über mehrern Zeilen erstreckt werden können
+	(i) Handelt sich um eine For-Schleife welche 10 iterationen durchgeht wobei der iterator i die Werte von 0-9 annimmt.
+	(j) Mit der exit() Funktion wird Python beendet.
+		
+		
+		
+		
+		
